@@ -21,8 +21,8 @@
 }
 
 .calc{
-    width: 310px;
-    height: 510px;
+    width: 290px;
+    height: 480px;
     background: rgb(26, 28, 26);
     border: none;
     border-radius: 5px;
@@ -30,7 +30,7 @@
 }
 
 #screen{
-    width: 290px;
+    width: 270px;
     margin-top: 10px;
     height: 85px;
     pointer-events: none;
@@ -58,8 +58,8 @@
     border: none;
     color: rgb(217, 231, 217);
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
@@ -72,8 +72,8 @@
     border: none;
     color: rgb(203, 217, 203);
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
@@ -86,8 +86,8 @@
     border: none;
     color: rgb(193, 233, 201);
     border-radius: 50%;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
@@ -100,8 +100,8 @@
     border: none;
     color: rgb(205, 231, 245);
     border-radius: 25px;
-    width: 290px;
-    height: 70px;
+    width: 270px;
+    height: 65px;
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;

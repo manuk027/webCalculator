@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="icon" type="image/png" href="assets/images/calculator.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <center>
+        <div class="main-body">
+            <div class="heading">
+                <img src="assets/images/calculator.png" alt="" id="logo">
+                <h1 class="h">Calculator<sub>by Manu</sub></h1>
+            </div>
+            <div class="calc">
+                <div class="output">
+                    <input type="text" name="" id="screen">
+
+                </div>
+                <div class="buttons">
+                    <div class="row">
+                        <button onclick="btnClick(7)" class="number">7</button>
+                        <button onclick="btnClick(8)" class="number">8</button>
+                        <button onclick="btnClick(9)" class="number">9</button>
+                        <button onclick="btnClick('/')" class="operation">÷</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="btnClick(4)" class="number">4</button>
+                        <button onclick="btnClick(5)" class="number">5</button>
+                        <button onclick="btnClick(6)" class="number">6</button>
+                        <button onclick="btnClick('*')" class="operation">x</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="btnClick(1)" class="number">1</button>
+                        <button onclick="btnClick(2)" class="number">2</button>
+                        <button onclick="btnClick(3)" class="number">3</button>
+                        <button onclick="btnClick('-')" class="operation">-</button>
+                    </div>
+                    <div class="row">
+                        <button onclick="btnClick(0)" class="number">0</button>
+                        <button onclick="btnClick('.')" class="number">.</button>
+                        <button onclick="result()" class="equal">=</button>
+                        <button onclick="btnClick('+')" class="operation">+</button>
+                    </div>
+                    <div class="row">
+                        <button class="clear" onclick="clearScr()">AC</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <h3 class="h">Connect me :</h3>
+                <a href="https://www.instagram.com/__man_____u__/">
+                    <img src="assets/images/instagram.png" alt="" class="instagram">
+                </a>
+
+                <a href="https://github.com/manuk027">
+                    <img src="assets/images/github.png" alt="" class="github">
+                </a>
+
+                <a href="mailto:krishnamanu27112004@gmail.com">
+                    <img src="assets/images/gmail.png" alt="" class="gmail">
+                </a>
+            </div>
+        </div>
+    </center>
+</body>
+</html>
